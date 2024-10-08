@@ -1,0 +1,176 @@
+<!doctype html><html><head><title>Amos Hason</title><meta name="description" content="Amos Hason"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>#imml a.portal:not(.inline) {
+  display: block;
+}
+
+#imml .pages > .page:target ~ .page:last-child,
+#imml .pages > .page {
+  display: none;
+}
+
+/* :last-child works, but for some reason .page:last-child will not */
+#imml .pages > :last-child,
+#imml .pages > .page:target {
+  display: block;
+}
+
+#imml .pages > :last-child .breadcrumbs {
+  visibility: hidden;
+}
+</style><style>:root {
+  --imml-text-light: #333333;
+  --imml-text-dark: #eeeeee;
+  --imml-background-light: #ffffff;
+  --imml-background-dark: #121212;
+  --imml-accent-light: dodgerblue;
+  --imml-accent-dark: dodgerblue;
+}
+
+:root {
+  --imml-background: var(--imml-background-light);
+  --imml-text: var(--imml-text-light);
+  --imml-text-inverse: var(--imml-text-dark);
+  --imml-accent: var(--imml-accent-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --imml-background: var(--imml-background-dark);
+    --imml-text: var(--imml-text-dark);
+    --imml-text-inverse: var(--imml-text-light);
+    --imml-accent: var(--imml-accent-dark);
+  }
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100%;
+  color: var(--imml-text);
+  background: var(--imml-background);
+}
+
+.pages {
+  margin: 0 auto;
+  max-width: 600px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.pages .page {
+  padding-top: 2em;
+  padding-bottom: 10em;
+}
+
+.page .breadcrumbs {
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+p {
+  line-height: 22px;
+}
+
+a {
+  width: fit-content;
+  color: var(--imml-accent);
+  border-bottom: 1px dotted var(--imml-accent);
+  text-decoration: none;
+}
+
+hr {
+  border-style: solid;
+  border-bottom: 1px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+blockquote {
+  border-left: 0.5em solid var(--imml-text-inverse);
+  padding: 0 1em;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+code {
+  background: var(--imml-text-inverse);
+  border-radius: 0.25em;
+  padding: 0em 0.25em;
+  font-family: monospace;
+  display: inline-block;
+}
+pre code {
+  padding: 0.5em 0.5em;
+}
+pre {
+  overflow-x: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  margin-top: 0.25em;
+  border-collapse: collapse;
+  width: 100%;
+}
+thead {
+  text-align: left;
+  font-weight: bold;
+}
+thead tr {
+  border-bottom: 1px solid;
+}
+tr {
+  border-bottom: 1px dashed;
+}
+td,
+th {
+  padding: 4px;
+}
+</style><style class="imml">
+img.site-logo {
+    height: 16px;
+    image-rendering: pixelated;
+}
+@media (prefers-color-scheme: dark) {
+    img.site-logo {
+        filter: invert();
+    }
+}
+[data-theme="light"] img.site-logo {
+    filter: none;
+}
+[data-theme="dark"] img.site-logo {
+    filter: invert();
+}
+a.external:after {
+    content: " ↗";
+}
+</style></head><body><div id="imml"><div class="pages"><div class="page" id="home"><div class="breadcrumbs"><span>home</span></div><h1>Amos Hason</h1>
+<hr>
+<p><a class="external" target="_blank" href="CV.pdf">CV</a><br><a class="external" target="_blank" href="https://www.linkedin.com/in/amos-hason/">LinkedIn</a><br><a class="external" target="_blank" href="https://github.com/AmosHason">GitHub</a></p>
+<hr>
+<p>I am an M.Sc. student in Computer Science at Ben-Gurion University of the Negev. I research unsupervised sequential disentangled representation learning under the supervision of <a class="external" target="_blank" href="https://omriazencot.com/">Dr. Omri Azencot</a>.</p>
+<p><strong>Status (09/10/2024)</strong>: Finished coursework and submitted thesis; awaiting thesis defense.</p>
+<p>Email address: <a class="external" target="_blank" href="mailto:amos@hason.science">amos@hason.science</a></p>
+<h2>Teaching</h2>
+<p>My teaching assistance duties:</p>
+<ul>
+<li>Spring 2022: Mathematical Applications in Computer Science (202.1.1021)</li>
+<li>Fall 2023: Design of Algorithms (202.1.2041)</li>
+<li>Spring 2023: Introduction to Programming in Python Language (202.1.9091)</li>
+<li>Fall 2024: Introduction to Programming with Python for Economists (202.1.9101)</li>
+</ul>
+<h2>About Me</h2>
+<p>Among my hobbies: video games, board games, social deduction games (I regularly play Mafia in a competitive setting), creative writing, reading all sorts of books, everything science fiction, philosophy, rationality, recreational mathematics, logic puzzles, music, hiking, and gazing at clouds and stars.</p>
+</div></div></div></body></html>
